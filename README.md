@@ -1,10 +1,8 @@
-ikTok Web Signature Generator
+tikTok Web Signature Generator
 
-https://img.shields.io/badge/python-3.10%2B-blue
-https://img.shields.io/badge/license-MIT-green
-https://img.shields.io/github/stars/n1tr00-10/tiktok-web-signature?style=social
-https://img.shields.io/github/forks/n1tr00-10/tiktok-web-signature?style=social
-https://img.shields.io/github/issues/n1tr00-10/tiktok-web-signature
+![Stars](https://img.shields.io/github/stars/n1tr00-10/tiktok-web-signature?style=social)
+![Forks](https://img.shields.io/github/forks/n1tr00-10/tiktok-web-signature?style=social)
+![Issues](https://img.shields.io/github/issues/n1tr00-10/tiktok-web-signature)
 
 Fully reverse-engineered TikTok Web API signature generator. Produces valid X-Gnarly, X-Bogus, and X-Dynosaur signatures that TikTok accepts with success responses.
 
@@ -184,10 +182,12 @@ Verification
 Signatures have been verified against live TikTok API endpoints. With valid X-Dynosaur and X-Gnarly headers, TikTok returns:
 json
 
-{
-    "status_code": 0,
-    "message": "success"
-}
+{"maigc":538051346,"version":1,"dataType":8}
+    Updated token from response: ZKayKXtxB3G8lNt8L8ANOXxIgMRvPSnXFDYM2ocnU8cT5Ojn0UtXjJrO-kIqPSwfnsJx1VcdZkCEg9BZCXiLFL4Mz9BNMCcmIt0-evhDA4QwRnyfSNhKzT4mkdViClma2eBZblxz
+ Token Validation  HTTP 200
+    API Response: {'status_code': 0}
+    Validation Result: {'valid': True, 'status': 0}
+ fresh activated msToken ZKayKXtxB3G8lNt8L8ANOXxIgMRvPSnXFDYM2ocnU8cT5Ojn0UtXjJrO-kIqPSwfnsJx1VcdZkCEg9BZCXiLFL4Mz9BNMCcmIt0-evhDA4QwRnyfSNhKzT4mkdViClma2eBZblxz
 
 This confirms the reverse-engineered algorithm is correct and the signatures are accepted by TikTok's servers.
 Token length
