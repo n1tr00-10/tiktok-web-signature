@@ -1,4 +1,4 @@
-tikTok Web Signature Generator
+TikTok Web Signature Generator
 
 ![Stars](https://img.shields.io/github/stars/n1tr00-10/tiktok-web-signature?style=social)
 ![Forks](https://img.shields.io/github/forks/n1tr00-10/tiktok-web-signature?style=social)
